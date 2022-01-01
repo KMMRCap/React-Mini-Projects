@@ -1,0 +1,242 @@
+@media (max-width: 575.98px) {
+    main.landing {
+        flex-direction: column;
+    }
+
+    main.todo-app {
+        form {
+            width: 95%;
+        }
+
+        .todo-card {
+            width: 95%;
+
+            div {
+                .check-todo {
+                    font-size: 10px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    main.movie-app {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .search-box {
+            width: 95%;
+            height: unset;
+        }
+
+        .movie-box {
+            width: 95%;
+        }
+    }
+
+    main.budget-app {
+        .budget-form {
+            .budget-input {
+                flex-direction: column;
+
+                label {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    main.factor-app {
+        align-items: flex-start;
+        padding-top: 2rem;
+        overflow-y: scroll;
+
+        .factor-cont {
+            flex-direction: column;
+            height: unset;
+            width: 90%;
+
+            .variables {
+                width: 95%;
+                margin: 1rem 0;
+            }
+
+            .factor {
+                width: 90%;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    main.add-question {
+        .question-inputs {
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    main.quiz-cont {
+        .slider {
+            .carousel {
+                width: 85%;
+            }
+        }
+    }
+
+    main.questions {
+        .not-empty {
+            .cards-cont {
+                justify-content: center;
+
+                .preview-card {
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    main.todo-app {
+
+        form,
+        .todo-card {
+            width: 60%;
+        }
+    }
+
+    main.movie-app {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .search-box {
+            width: 95%;
+            height: unset;
+        }
+
+        .movie-box {
+            width: 95%;
+        }
+    }
+
+    main.factor-app {
+        align-items: flex-start;
+        padding-top: 1rem;
+        overflow-y: scroll;
+
+        .factor-cont {
+            flex-direction: column;
+            height: unset;
+            width: 90%;
+
+            .variables {
+                width: 90%;
+                margin: 1rem 0;
+            }
+
+            .factor {
+                width: 70%;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    main.add-question {
+        .question-inputs {
+            input {
+                width: 90%;
+            }
+        }
+    }
+
+    main.quiz-cont {
+        .slider {
+            .carousel {
+                width: 80%;
+            }
+        }
+    }
+
+    main.questions {
+        .not-empty {
+            .cards-cont {
+                justify-content: center;
+
+                .preview-card {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    main.todo-app {
+
+        form,
+        .todo-card {
+            width: 60%;
+        }
+    }
+
+    main.movie-app {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .search-box {
+            width: 95%;
+            height: unset;
+        }
+
+        .movie-box {
+            width: 95%;
+        }
+    }
+
+    main.factor-app {
+        align-items: flex-start;
+        padding-top: 1rem;
+        overflow-y: scroll;
+
+        .factor-cont {
+            flex-direction: column;
+            height: unset;
+            width: 90%;
+
+            .variables {
+                width: 70%;
+                margin: 1rem 0;
+            }
+
+            .factor {
+                width: 70%;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    main.add-question {
+        .question-inputs {
+            input {
+                width: 85%;
+            }
+        }
+    }
+
+    main.quiz-cont {
+        .slider {
+            .carousel {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px)and (max-width: 1440px) {}
+
+@media (min-width: 1440px) and (max-width: 1700px) {}
+
+@media (min-width: 1700.02px) {}
